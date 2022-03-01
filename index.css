@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+h1 {
+	color: pink;
+	font-family: 'Poppins', sans-serif;
+	font-style: bold; 
+}
+
+h2 {
+	color: black;
+	font-family: 'Poppins', sans-serif;
+	font-style: medium; 
+}
+
+.date {
+	color: gray; 
+	font: courier; 
+	font-style: thin; 
+	font-size: 16px; 
+}
+
+h3 {
+	color: black;
+	font-family: 'Poppins', sans-serif;
+	font-style: medium;
+}
+
+p {
+	font-family: 'Poppins', sans-serif;
+	font-style: thin; 
+}
+
+.TableOfContents {
+	font-family: 'Poppins', sans-serif;
+	font-style: medium; 
+}
+
+.container {
+	margin: 0 auto; 
+	width: 960px; 
+}
+
+img {
+  border-radius: 30px; 
+}
+
+/*PARALLAX SCROLLING EFFECT */
+
+body, html {
+  height: 100%;
+}
+
+.parallax1 {
+  background-image: url(StudioGhibli.png);
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.parallax2 {
+	background-image: url(StudioGhibli2.jpg); 
+	min-height: 150px;
+	min-width: 1000px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+
+.parallax3 {
+	background-image: url(StudioGhibli3.png); 
+	min-height: 150px;
+	min-width: 1000px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax4 {
+	background-image: url(StudioGhibli4.png); 
+	min-height: 150px;
+	min-width: 1000px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+	
+.parallax5 {
+	background-image: url(StudioGhibli5.png); 
+	min-height: 150px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax6 {
+	background-image: url(StudioGhibli6.png); 
+	min-height: 150px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax7 {
+	background-image: url(StudioGhibli7.png); 
+	min-height: 150px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+	
+
+/*FOOTER*/
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #989998;
+  color: white;
+}
+
+
+/*NAVBAR*/
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
